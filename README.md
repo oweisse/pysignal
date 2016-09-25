@@ -11,7 +11,8 @@ Works on Ubuntu 16.04, Windows 7, Windows 10
 ## 1. Real time spectrum analyzer (BB60C)
 ----------------------------------
 User "RealTimeSignalHound" class, in pysignal.py. Look at main() function for example of usage.
-The resulting file can be parsed in Matlab by using ParseBinaryIQFile.m.
+The resulting file can be parsed in Matlab by using ParseBinaryIQFile.m. 
+NOTE: Will NOT work on a virtual machine, due to USB 3 drivers issues. 
 
 ```
 realTimeSignalHound = RealTimeSignalHound();
@@ -64,7 +65,8 @@ can be found at http://signalhound.com/sigdownloads/BB60C/BB60-API-Manual.pdf
 ## 2. Using Spectrum Analyzer (SA124B) and Tracking Generator (TG124A):
 -------------------------------------------------------------
 Use "SignalHound" class, in pysignal.py. See main() for example (commented out).
-The resulting file can be parsed in Matlab by using ParseBinarySweepFile.m
+The resulting file can be parsed in Matlab by using ParseBinarySweepFile.m.
+Also works on a virtual machine. 
 
 ```
 signalHound = SignalHound()
