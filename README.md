@@ -1,5 +1,5 @@
 # pysignal
-A Python wrapper for "Signal Hound" Spectrum Analyzer, Real Time Spectrum Analyzer and Tracking Generator
+A Python wrapper for "Signal Hound" API for Spectrum Analyzer, Real Time Spectrum Analyzer and Tracking Generator
 
 Supports the following products:
   - BB60C: Real Time Spectrum Analyzer
