@@ -41,6 +41,8 @@ finally:
 ## 1.1 Analyzing continuous scans in Matlab:
 ------------------------------------
 ```
+% After running the Python code above, the sweeps will be saved into 'consecutive_sweeps' directory, 
+% in a timestamp-named directory. The Matlab code will read data from the most recent one.
 analyzer = FFTAnalyzer()
 analyzer.AnalyzeContiniousScan()
 % (Short Time Fourier Transform, implemented in stft.m, written by  M.Sc. Eng. Hristo Zhivomirov)
